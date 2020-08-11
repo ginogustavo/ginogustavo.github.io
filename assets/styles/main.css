@@ -4,6 +4,10 @@ html, body {
     height: 100%;
     width: 100%;
 }
+h1,h2{
+    color:white;
+}
+
 p{
     margin: 0;
     /* font-size: 4rem; */
@@ -11,7 +15,10 @@ p{
     letter-spacing: 0.3rem;
     text-shadow: 0.1rem 0.1rem 0.8rem black;
     padding-bottom: 1rem;
-    color: #13d8b7;
+    color: yellow; /* #13d8b7;*/
+}
+ul{
+    color:white;
 }
 section{
     width: 100%;
@@ -24,11 +31,16 @@ section{
     background-size: cover;
 }
 #section1{
-    background-image: url(../images/california.jpg); 
+    background-image: url(../images/laptop.png); 
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    padding-top: 100px;
+
 }
 #section2{
-    background-image: url(../images/norway.jpg);  
+    background-image: url(../images/formulas.png);  
 }
 #section3{
-   background-image: url(../images/beachmountain.jpg); 
+   background-image: url(../images/office.png); 
 }
