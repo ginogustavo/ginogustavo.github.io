@@ -3,52 +3,55 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Gino G. Ureta</title>
+    <title>Gino Ureta</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/styles/main.css" />
-    <link rel="stylesheet" href="assets/styles/header.css">
+    <link rel="stylesheet" href="assets/styles/header.css" />
+    <link rel="stylesheet" href="assets/styles/typing.css" />
+    <link rel="stylesheet" href="assets/styles/scrolldown.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js"></script>
+    <script src="assets/script/typing.js"></script>
   </head>
   <body>
-
     <header class="header">
       <!-- <img tabindex="0" class="header__img" src="assets/images/logoG2.png" alt="Logo" /> -->
-      <div class="header__author">Gino G. Ureta</div>
+      <div class="header__author">Gino Ureta</div>
       <div class="header__menu">
         <ul>
-          <li><a tabindex="0" href="#">Home</a></li>
-          <li><a tabindex="0" href="#">About me</a></li>
-          <li><a tabindex="0" href="#">Projects</a></li>
-          <li><a tabindex="0" href="#">Contact</a></li>
+          <li><a tabindex="0" href="#section1">Home</a></li>
+          <li><a tabindex="0" href="#section2">About me</a></li>
+          <li><a tabindex="0" href="#section3">Projects</a></li>
+          <li><a tabindex="0" href="#section4">Contact</a></li>
         </ul>
       </div>
     </header>
 
-
     <section class="parallax" id="section1">
       <h1>Hey there!</h1>
       <h2>
-        My name is Gino Ureta and although I'm aware that specialists in one
+        I'm Gino Ureta and although I'm aware that specialists in one
         area are the real masters/savvy/rulers, I can't help to explore more
         than one field.
       </h2>
-      <ul>
-        <li>Software Engineer</li>
-        <li>Full Stack Dev</li>
-        <li>AWS Architect</li>
-        <li>DevOps Eng</li>
-        <li>Mobile Dev</li>
-        <li>Data Scientist</li>
-        <li>AI and ML enthusiast</li>
-      </ul>
+      <h1>Looking for a label?, what about ... <span class="typed"></span></h1>
       <h2>
         Pretty cool eh! Ok, you've got me, those are listed in order of
         experience.
       </h2>
+      
+      <div class="box">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
     </section>
     <section class="parallax" id="section2">
       <p>About me</p>
 
       <p>
-        Hi, I'm Gino Ureta, a Software Engineer and I love creating things that
+        As a Software Engineer and I love creating things that
         I can be proud of (show off) on the internet. Web Applications, Mobile
         Application, or anything in between.
       </p>
@@ -67,6 +70,9 @@
     </section>
     <section class="parallax" id="section3">
       <p>Some projects</p>
+    </section>
+    <section class="parallax" id="section4">
+      <p>Contact</p>
     </section>
   </body>
 </html>
