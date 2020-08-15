@@ -4,10 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gino Ureta</title>
+
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
       rel="stylesheet"
     />
+
     <link rel="stylesheet" href="assets/styles/main.css" />
     <link rel="stylesheet" href="assets/styles/header.css" />
     <link rel="stylesheet" href="assets/styles/typing.css" />
@@ -24,8 +26,8 @@
         <ul>
           <li><a tabindex="0" href="#home">Home</a></li>
           <li><a tabindex="0" href="#AboutMe">About me</a></li>
-          <li><a tabindex="0" href="#section3">Projects</a></li>
-          <li><a tabindex="0" href="#section4">Contact</a></li>
+          <li><a tabindex="0" href="#Projects">Projects</a></li>
+          <li><a tabindex="0" href="#Contact">Contact</a></li>
         </ul>
       </div>
     </header>
@@ -54,13 +56,13 @@
         <span></span>
       </div>
     </section>
-    <section class="parallax" id="AboutMe">
+    <section class="parallax AboutMe" id="AboutMe">
       <div class="AboutMe__Text">
-        <p class="AboutMe__Text__Bold">About me</p>
+        <p class="sectionTitle">About me</p>
         <p>
-          As a Software Engineer and I love creating things that I can be proud
-          of (show off) on the internet. Web Applications, Mobile Application,
-          or anything in between.
+          I <b>love</b> creating things that I can be proud of (show off) on the
+          internet. Web Applications, Mobile Application, or anything in
+          between.
         </p>
         <p>
           What drives me every day is to deliver clean and efficient code and
@@ -72,46 +74,63 @@
           finance, etc) to customize solutions for small-business clients.
         </p>
         <p>My passion? Well, I'll save it for later when we meet each other</p>
-
-        <p>Some technologies I've been working lately:</p>
       </div>
 
       <div class="AboutMe__Skills">
-        <ul>
-          <li>HTML5 & (S)CSS</li>
-          <li>Javascript</li>
-          <li>React.js</li>
-          <li>Jquery</li>
-          <li>Node.js</li>
-          <li>Npm</li>
-          <li>Git</li>
-
-          <li>Java</li>
-          <li>Python</li>
-          <li>Php</li>
-
-          <li>Mysql</li>
-          <li>PostgreSQL</li>
-          <li>Oracle</li>
-          <li>SQL Server</li>
-          <li>MongoDB</li>
-          <li>DynamoDB</li>
-
-          <li>AWS</li>
-          <li>Google Cloud</li>
-          <li>Docker</li>
-          <li>Jenkins</li>
-
-          <li>Mobile IOS / Swift</li>
-        </ul>
-
+        <p>Some technologies I've been working lately:</p>
+        <div class="AboutMe__Skills__List">
+          <ul>
+            <li>HTML5 & (S)CSS</li>
+            <li>Javascript</li>
+            <li>React.js</li>
+            <li>Jquery</li>
+            <li>Node.js</li>
+            <li>Npm</li>
+            <li>Git</li>
+            <li>Java</li>
+            <li>Maven</li>
+            <li>Python</li>
+            <li>Php</li>
+            <li>Mysql</li>
+            <li>PostgreSQL</li>
+            <li>Oracle</li>
+            <li>SQL Server</li>
+            <li>MongoDB</li>
+            <li>DynamoDB</li>
+            <li>AWS</li>
+            <li>Google Cloud</li>
+            <li>Docker</li>
+            <li>Jenkins</li>
+            <li>Mobile IOS / Swift</li>
+          </ul>
+        </div>
       </div>
-
     </section>
-    <section class="parallax" id="section3">
+    <section class="parallax certifications" id="Certifications">
+      <h1 class="certifications__Title sectionTitle">Certifications</h1>
+      <p class="certifications__Text">Humbly holding some:</p>
+      <div class="certifications__badges">
+        <img
+          src="./assets/images/badges/awsbadge.png"
+          alt="Badge Certification"
+        />
+        <img
+          src="./assets/images/badges/soabadge.png"
+          alt="Badge Certification"
+        />
+        <img src="./assets/images/badges/pmp.jpeg" alt="Badge Certification" />
+        <img
+          src="./assets/images/badges/scrumbadge.png"
+          alt="Badge Certification"
+        />
+        <img src="./assets/images/badges/java.png" alt="Badge Certification" />
+      </div>
+    </section>
+    <section class="parallax projects" id="Projects">
       <p>Some projects</p>
     </section>
-    <section class="parallax" id="section4">
+
+    <section class="parallax contact" id="Contact">
       <p>Contact</p>
     </section>
   </body>
