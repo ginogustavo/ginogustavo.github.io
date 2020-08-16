@@ -4,16 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gino Ureta</title>
-
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
       rel="stylesheet"
     />
-
     <link rel="stylesheet" href="assets/styles/main.css" />
     <link rel="stylesheet" href="assets/styles/header.css" />
     <link rel="stylesheet" href="assets/styles/typing.css" />
     <link rel="stylesheet" href="assets/styles/scrolldown.css" />
+    <link rel="stylesheet" href="assets/styles/social-media-icons.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js"></script>
     <script src="assets/script/typing.js"></script>
@@ -35,7 +34,7 @@
     <section class="parallax" id="home">
       <div class="homeContainer">
         <h1>Hey there!</h1>
-        <h2>I'm <span class="homeContainer__boldText">Gino Ureta</span></h2>
+        <h2>I'm <span class="homeContainer__boldText"> Gino Ureta</span></h2>
         <h2>
           Although I'm aware that specialists in one area are the real
           masters/savvy/rulers, I can't help to explore more than one field.
@@ -57,8 +56,9 @@
       </div>
     </section>
     <section class="parallax AboutMe" id="AboutMe">
+      
       <div class="AboutMe__Text">
-        <p class="sectionTitle">About me</p>
+        <h1 class="sectionTitle">About me</h1>
         <p>
           I <b>love</b> creating things that I can be proud of (show off) on the
           internet. Web Applications, Mobile Application, or anything in
@@ -127,10 +127,7 @@
       </div>
     </section>
     <section class="parallax projects" id="Projects">
-      <!-- <p></p> -->
-
-      <h1 class="certifications__Title sectionTitle">Some projects</h1>
-
+      <h1 class="certifications__Title sectionTitle"">Some projects</h1>
       <div class="projects__list">
         <div class="projects__card">
           <img
@@ -146,6 +143,8 @@
               Designed an intuitive web page to search for videos and browser
               through a list of preferences.
             </p>
+            <a href="https://ginogustavo.github.io/tech-videos/" target="_blank">
+              <img src="./assets/images/redirect.png" alt="Check it out"></a>
           </div>
         </div>
 
@@ -162,7 +161,8 @@
             <p class="projects__card--description">
               This game was created by applying fundamental concepts in Javascript and in the Web arena. In the process, I reviewed topics such as Asynchronism, Callbacks, HTML DOM events & Promises.
             </p>
-            <a href="https://ginogustavo.github.io/SimonSays/" target="_blank">Link</a>
+            <a href="https://ginogustavo.github.io/SimonSays/" target="_blank">
+              <img src="./assets/images/redirect.png" alt="Check it out"></a>
           </div>
         </div>
 
@@ -180,6 +180,9 @@
               My portfolio website I designed using HTML/CSS . 
               I tuned my web development and design skills applying transition effects and animation.
             </p>
+            <a href="#home" >
+              <img src="./assets/images/redirect.png" alt="Check it out">
+            </a>
           </div>
         </div>
 
@@ -196,6 +199,8 @@
             <p class="projects__card--description">
               This form showcases the asynchronous consumption of a public API using native Javascript fetch, Promises, and Async-Await approach.  Since it entirely built using javascript code it lacks of fancy web design, however, the beauty is on the elegant code.
             </p>
+            <a href="https://codepen.io/ginogustavo/pen/MWyYzMz" target="_blank">
+              <img src="./assets/images/redirect.png" alt="Check it out"></a>
           </div>
         </div>
 
@@ -218,7 +223,22 @@
     </section>
 
     <section class="parallax contact" id="Contact">
-      <p>Contact</p>
+      <h1 class="certifications__Title sectionTitle">Contact</h1>
+      <p class="contact__text">Let's get in touch, my inbox is always open.<br>Whether you have a question or just want to say hi!!</p>
+      <div class="container">
+  
+        <div class="footer-social-icons">
+          <ul class="social-icons">
+              <li><a href="mailto:ing.gino@gmail.com" title="Send an email" class="social-icon" target="_blank"> <i class="fa fa-envelope"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/ginoureta/" title="Linked In" class="social-icon" target="_blank"> <i class="fa fa-linkedin"></i></a></li>
+              <li><a href="https://github.com/ginogustavo" title="Git Hub" class="social-icon" target="_blank"> <i class="fa fa-github"></i></a></li>
+              <li><a href="https://twitter.com/ginogus" title="Twitter" class="social-icon" target="_blank"> <i class="fa fa-twitter"></i></a></li>
+              <li><a href="https://codepen.io/ginogustavo" title="Code Pen" class="social-icon" target="_blank"> <i class="fa fa-codepen"></i></a></li>
+          </ul>
+      </div>
+      </div>
+      <p class="copyright">Designed & Built by Gino G. Ureta
+      </p>
     </section>
   </body>
 </html>
